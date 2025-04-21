@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "darkmaestro:dark_component"
+  },
+  "base": {
+    "item": "darkmaestro:athame"
+  },
+  "result": {
+    "count": 1,
+    "item": "darkmaestro:kurayami"
+  }
+}
