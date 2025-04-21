@@ -62,6 +62,7 @@ public class DarkMaestro
     {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.DARKCOMPONENT);
+            event.accept(ModItems.DARK_SMITHING_TEMPLATE);
         };
         if (event.getTabKey() == CreativeModeTabs.COMBAT){
             event.accept(ModItems.ATHAME);

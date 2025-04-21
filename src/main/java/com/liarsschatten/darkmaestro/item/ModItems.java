@@ -16,7 +16,10 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(DarkMaestro.MODID);
 
     public static final DeferredItem<Item> DARKCOMPONENT = ITEMS.register("dark_component",
-            ()-> new Item(new Item.Properties()));
+            ()-> new Item(new Item.Properties().fireResistant()));
+
+    public static final DeferredItem<Item> DARK_SMITHING_TEMPLATE = ITEMS.register("dark_smithing_template",
+            ()-> new Item(new Item.Properties().fireResistant()));
 
     public static final DeferredItem<SwordItem> ATHAME = ITEMS.register("athame",
             ()-> new SwordItem(Tiers.IRON, new  Item.Properties()

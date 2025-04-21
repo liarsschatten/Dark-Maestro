@@ -8,6 +8,9 @@
   },
   "result": {
     "count": 1,
-    "item": "darkmaestro:kurayami"
+    "id": "darkmaestro:kurayami"
+  },
+  "template": {
+    "item": "darkmaestro:dark_smithing_template"
   }
 }
